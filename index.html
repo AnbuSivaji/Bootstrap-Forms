@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecao Bootstrap Template Demo</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://bootstrapmade.com/assets/css/demo.css?v=42">
+<style>
+    *,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 32px;
+  background: #023b6d;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding-left: 10px;
+}
+.logo img {
+  height: 25px;
+}
+.logo a {
+  display: flex;
+}
+.logo strong {
+  margin-left: 6px;
+  text-transform: uppercase;
+}
+.logo strong span {
+  color: #00a6eb;
+}
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
+.preview-devices {
+  margin-top: 2px;
+}
+.preview-devices ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.preview-devices a {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding: 5px 5px;
+}
+.preview-devices a .icon {
+  width: 22px;
+  height: 22px;
+}
+.preview-devices a:hover {
+  color: #fff;
+}
+.preview-devices .preview-devices-active a {
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .preview-devices {
+    display: none;
+  }
+}
+.navigate {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.navigate .icon {
+  width: 22px;
+  height: 22px;
+}
+.navigate a {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.navigate a:hover {
+  color: #fff;
+}
+.navigate .download {
+  background: #00a6eb;
+  color: #fff;
+  font-size: 13px;
+  padding: 0 16px;
+  height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+.navigate .download .icon {
+  width: 20px;
+  height: 20px;
+}
+.navigate .download span {
+  padding-left: 6px;
+}
+.navigate .download:hover {
+  background: #00b4ff;
+}
+@media (max-width: 768px) {
+  .navigate .download {
+    padding: 0 10px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .navigate .download .icon {
+    display: none;
+  }
+}
+.current-template {
+  margin-top: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .current-template {
+    padding-left: 0;
+    margin-left: auto;
+  }
+}
+.current-template .icon {
+  width: 24px;
+  height: 24px;
+}
+.current-template a {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.current-template a:hover {
+  color: #fff;
+}
+.current-template .template-home {
+  font-size: 16px;
+  padding: 0;
+  font-weight: 700;
+  color: #fff;
+  margin: -2px 10px 0 10px;
+  line-height: 0;
+  text-decoration: none;
+}
+#preview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 32px;
+  bottom: 0;
+  transition: all 0.2s;
+}
+#preview-frame {
+  border: 0;
+  position: absolute;
+}
+.preview-desktop {
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.preview-tablet {
+  width: 768px;
+  height: 100%;
+  left: calc(50% - 384px);
+}
+.preview-mobile {
+  width: 380px;
+  height: 680px;
+  left: calc(50% - 190px);
+  top: 0;
+  margin-top: 20px;
+}
+</style>
+
+
+
+</head>
+
+<body>
+    <header id="header">
+
+        <div class="logo">
+            <a href="https://bootstrapmade.com/" rel="home" title="Back to BootstrapMade Homepage"><img
+                    alt="BootstrapMade" src="https://bootstrapmade.com/assets/img/logo.png"></a>
+        </div>
+        <div class="preview-devices">
+            <ul>
+                <li class="preview-test preview-devices-active" id="preview-test-desktop"
+                    title="Desktop preview of the  Selecao template"><a href=""><svg class="icon icon-preview"
+                            fill="currentColor">
+                            <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#preview" />
+                        </svg></a></li>
+                <li class="preview-test" id="preview-test-tablet" title="Tablet preview of the Selecao template"><a
+                        href=""><svg class="icon icon-tablet" fill="currentColor">
+                            <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#tablet" />
+                        </svg></a></li>
+                <li class="preview-test" id="preview-test-mobile" title="Mobile preview of the Selecao template"><a
+                        href=""><svg class="icon icon-smartphone" fill="currentColor">
+                            <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#smartphone" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <div class="current-template">
+            <a href="https://bootstrapmade.com/demo/Bootslander/" title="Previous Template: Bootslander"
+                target="_top"><svg class="icon icon-chevron-left" fill="currentColor">
+                    <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#chevron-left" />
+                </svg></a>
+            <a class="template-home" href="https://bootstrapmade.com/selecao-bootstrap-template/"
+                title="Selecao Template Home Page">Selecao</a>
+            <a href="https://bootstrapmade.com/demo/Active/" title="Next Template: Active" target="_top"><svg
+                    class="icon icon-chevron-right" fill="currentColor">
+                    <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#chevron-right" />
+                </svg></a>
+        </div>
+
+        <div class="navigate">
+            <a href="https://bootstrapmade.com/content/demo/Selecao/" target="_top" title="Hide the demo bar"><svg
+                    class="icon icon-external-link" fill="currentColor">
+                    <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#external-link" />
+                </svg></a>
+            <a class="download" href="https://bootstrapmade.com/selecao-bootstrap-template/#download"
+                title="Download the Selecao Template"><svg class="icon icon-download" fill="currentColor">
+                    <use xlink:href="https://bootstrapmade.com/assets/img/icons.svg#download" />
+                </svg> <span>Download</span></a>
+        </div>
+
+    </header>
+
+
+    <div id="preview">
+        <iframe id="preview-frame" class="preview-desktop" src="https://bootstrapmade.com/content/demo/Selecao/"
+            frameborder="0"></iframe>
+    </div>
+
+    <script src="https://bootstrapmade.com/assets/js/demo.js?v=42"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7JSYB1CSP"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-P7JSYB1CSP');</script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon='{"rayId":"8eb3b14cbe25ce73","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"68c5ca450bae485a842ff76066d69420"}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
